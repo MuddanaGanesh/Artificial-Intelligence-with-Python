@@ -13,7 +13,7 @@ The youtube(ele) function plays a YouTube video using the pywhatkit library to s
 The chrome(ele) function performs a web search using Chrome with the pywhatkit library.
 The whatsapp(t, msg) function sends a WhatsApp message using the pywhatkit library to the specified number t with the message msg.
 The sendmail(to, msg) function sends an email using SMTP. It logs into a Gmail account and sends an email to the recipient to with the message msg.
-The wish() function greets the user based on the time of day. It uses the datetime library to determine the appropriate greeting and the speak function to deliver it.
+The wish() function greets the user based on the time of day. It uses the datetime library to determine the appropriate greeting and the speak function to deliver it.  
 The inp() function listens for voice input using the speech_recognition library, capturing and recognizing speech, and returning the recognized text.
 The screenshot() function takes a screenshot using the pyscreeze library to capture and save the screen image.
 The talktoai(query) function sends a query to an AI model for a response. It uses the requests library to send a request to an AI service and then speaks the response using the speak function.
